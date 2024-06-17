@@ -29,12 +29,29 @@ Connect to EC2 Instance and list the available disk devices to verify the attach
 
 #### Step 4:-
 
-Create a file system on the volume (e.g., ext4). we have two volume so we need to create two file system for two volume.
+Create a file system on the volume (e.g., ext4). we have two volume so we need to create two file system.
 
       sudo mkfs -t ext4 /dev/xvdf
       sudo mkfs -t ext4 /dev/xvdp
 
+#### Step 5:-
 
+Create a directory as a mount point.
+
+      mkdir dir1
+      mkdir dir2
+
+#### Step 6:- 
+
+Now mount the volumes on this mount point(directory) and verify it with below commands.
+
+      sudo mount /dev/xvdf dir1
+      sudo mount /dev/xvdf dir2
+
+      Now verify it below command
+
+      lsblk  or
+      df -h
 
 
 
