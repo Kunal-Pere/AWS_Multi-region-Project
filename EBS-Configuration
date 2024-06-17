@@ -1,0 +1,20 @@
+     Go to volume section
+             |
+       Create volume
+             |
+        Volume type
+( General Purpose SSD (gp3) )
+             |
+           Size
+          (15 GiB)
+             |
+            IOPS
+           (3000)
+             |
+     Throughput (MiB/s)
+           (125)
+             |
+      Availability Zone
+(Select as per you instance az)
+             |
+    Click on create volume
