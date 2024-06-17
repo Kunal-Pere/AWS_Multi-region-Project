@@ -14,3 +14,14 @@ Follow the EC2-Configuration file to create ec2 instance in us-east-1 (North-Vir
 Once the instance get launch connect it and update the instance with below command.
 
      sudo apt update -y
+#### Step 3 :-
+
+As per given task we need to replicate the instance in the US-West-2(Oregon) region hence we need to create image of this us-east-1 region instance and once the image create follow the below steps.
+
+    1) Go to AMI section.
+    2) Select that created image.
+    3) Go to Action button
+    4) select copy AMI
+
+    Now we have to copy our image in required region which is us-west-2 (oregon) and give name to that AMI.
+
