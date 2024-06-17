@@ -27,6 +27,8 @@ Connect to EC2 Instance and list the available disk devices to verify the attach
 
       lsblk
 
+      
+
 #### Step 4:-
 
 Create a file system on the volume (e.g., ext4). we have two volume so we need to create two file system.
@@ -50,7 +52,7 @@ Now mount the volumes on this mount point(directory) and verify it with below co
 
       Now verify it below command
 
-      lsblk  or
+      lsblk
       df -h
 
 
