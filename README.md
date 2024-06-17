@@ -16,7 +16,7 @@ Once the instance get launch connect it and update the instance with below comma
      sudo apt update -y
 #### Step 3 :-
 
-As per given task we need to replicate the instance in the Us-West-2(Oregon) region hence we need to create image of this us-east-1 region instance and once the image create then follow the below steps.
+As per given task we need to replicate the instance in the Us-West-2(Oregon) region hence we need to create image of this us-east-1 region instance and once the image created then follow the below steps.
 
     1) Go to AMI section.
     2) Select that created image.
