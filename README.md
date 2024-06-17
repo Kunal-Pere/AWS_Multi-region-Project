@@ -23,6 +23,9 @@ As per given task we need to replicate the instance in the US-West-2(Oregon) reg
     3) Go to Action button.
     4) select copy AMI.
 
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/846a9d6d-3e1f-4fce-96ca-b1541591e9a2)
+
+
     Now we have to copy our image in required region which is us-west-2 (Oregon) and give name to that AMI.
 
 #### Step 4 :- 
