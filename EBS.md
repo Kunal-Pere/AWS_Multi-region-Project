@@ -27,7 +27,8 @@ Connect to EC2 Instance and list the available disk devices to verify the attach
 
       lsblk
 
-      
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/20828ab0-1e81-4546-a530-201bbc07a82f)
+ 
 
 #### Step 4:-
 
@@ -36,12 +37,18 @@ Create a file system on the volume (e.g., ext4). we have two volume so we need t
       sudo mkfs -t ext4 /dev/xvdf
       sudo mkfs -t ext4 /dev/xvdp
 
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/f43af34b-b825-47b4-8439-fef868088551)
+
+
 #### Step 5:-
 
 Create a directory as a mount point.
 
       mkdir dir1
       mkdir dir2
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/caff4eb6-b73e-4fe5-9586-afe6fd9a0f3d)
+
 
 #### Step 6:- 
 
@@ -54,6 +61,31 @@ Now mount the volumes on this mount point(directory) and verify it with below co
 
       lsblk
       df -h
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/6feb0e12-189b-4e8d-b73f-ed48c8d44ad8)
+
+
+#### Step 7:- 
+
+So now we need to delete one volume after detaching it and extend the size of the other volume.
+
+      For unmount the volume use below command
+
+      sudo umount /dev/xvdf
+
+now go to volume section and detach the same volume from the instance and later delete that volume.
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/3aa0cf96-c2c5-4d11-8e65-6337f6152893)
+
+
+#### Step 8:-
+
+
+
+
+
+
+
 
 
 
