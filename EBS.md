@@ -17,7 +17,9 @@ For volume creation kindly follow EBS-configuration file.
 
 Go to action button and attach both volumes to the EC2 Instance which is created in us-east-1 region.
 
-![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/ea333fe9-4227-415c-b4cb-6ea44b7b8467)
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/4710b90a-d829-47d7-8d60-4758f3625e44)
+
+follow the same process for another volume...
 
 #### Step 3:-
 Connect to your EC2 Instance.
