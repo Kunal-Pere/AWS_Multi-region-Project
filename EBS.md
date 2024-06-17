@@ -57,7 +57,7 @@ Now mount the volumes on this mount point(directory) and verify it with below co
       sudo mount /dev/xvdf dir1
       sudo mount /dev/xvdf dir2
 
-      Now verify it below command
+      Now verify it using below command
 
       lsblk
       df -h
@@ -79,6 +79,23 @@ now go to volume section and detach the same volume from the instance and later 
 
 
 #### Step 8:-
+
+So as per remaining task we need to extend size of other volume.
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/6fe852dc-95b7-464c-8799-bea1566530bd)
+
+
+#### Step 9:-
+
+And in last we have to take snapshot of our remaining volume so for this follow the below step.
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/135c7aaa-7adc-406a-b82c-bec306ec1bc3)
+
+
+### Thank You
+
+### Kunal Pere
+
 
 
 
