@@ -27,14 +27,12 @@ Connect to EC2 Instance and list the available disk devices to verify the attach
 
       lsblk
 
-
-
 #### Step 4:-
 
-Create File Systems using the below command
-      sudo mkfs -t xfs /dev/xvdf
-      sudo mkfs -t xfs /dev/xvdk
+Create a file system on the volume (e.g., ext4). we have two volume so we need to create two file system for two volume.
 
+      sudo mkfs -t ext4 /dev/xvdf
+      sudo mkfs -t ext4 /dev/xvdp
 
 
 
