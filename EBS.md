@@ -22,7 +22,9 @@ Go to action button and attach both volumes to the EC2 Instance which is created
 follow the same process for another volume...
 
 #### Step 3:-
-Connect to your EC2 Instance.
+
+Connect to EC2 Instance and list the available disk devices to verify the attachment hrough below command.
+      lsblk
 
 
 
