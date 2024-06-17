@@ -1,0 +1,24 @@
+ Login to AWS Account
+        |
+  Search for EC2
+        |
+  Launch Insance
+        |
+  Instance name
+        |
+    Select AMI
+   (Ubuntu 22.0)
+        |
+   Instance Type
+   ( t2.micro )
+        |
+     Key Pair
+   (Recommonded)
+        |
+  Network Setting
+( select VPC & SG )
+        |
+ Configure Storage
+   (8 GiB - gp3)
+        |
+Click on launch instance
