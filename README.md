@@ -5,5 +5,10 @@ Multi-region Web Server Deployment with EBS Volume Management
 
 #### Step 1 :- 
 
-     Follow the EC2-COnfiguration file to create ec2 instance.
+     Follow the EC2-Configuration file to create ec2 instance.
+
+     ![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/97ccbd13-469b-45d6-b9e0-bfd06b89575e)
+
+
+#### Step 2
 
