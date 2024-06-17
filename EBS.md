@@ -24,6 +24,7 @@ follow the same process for another volume...
 #### Step 3:-
 
 Connect to EC2 Instance and list the available disk devices to verify the attachment hrough below command.
+
       lsblk
 
 
