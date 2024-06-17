@@ -91,6 +91,8 @@ And in last we have to take snapshot of our remaining volume so for this follow 
 
 ![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/135c7aaa-7adc-406a-b82c-bec306ec1bc3)
 
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/08699447-98c7-4ec3-a13a-c77632211b7f)
+
 
 ### Thank You
 
