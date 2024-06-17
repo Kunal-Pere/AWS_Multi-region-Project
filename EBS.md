@@ -4,6 +4,13 @@
 
 #### Step 1:-
 
+So as per our task we need to create two volume and attach it to respective insance.hence we have created two volume
+
+1) 10 GiB
+2) 15 GiB
+
+![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/f20312ce-50dc-467a-8896-a822b3f5f6e4)
+
 
 
 #### Step 2:-
@@ -24,4 +31,4 @@ Create File Systems using the below command
 ![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/7f3e2570-8ad4-43a8-9ab1-d4bc3d2cf253)
 
 
-![image](https://github.com/Kunal-Pere/AWS_Multi-region-Project/assets/157100045/f20312ce-50dc-467a-8896-a822b3f5f6e4)
+
