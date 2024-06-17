@@ -4,7 +4,7 @@
 
 #### Step 1:-
 
-So as per our task we need to create two volume and attach it to respective insance.hence we have created two volume
+So as per our task we need to create two volume and attach it to respective instance.hence we have created two volume
 
 1) 10 GiB
 2) 15 GiB
