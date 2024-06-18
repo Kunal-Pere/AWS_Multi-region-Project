@@ -6,4 +6,4 @@
 
 #### Conclusion:- 
 
-     High Availability and Redundancy: Multi-region deployment ensures that your web application is resilient to failures in one region. By distributing your servers across different             geographic locations, you reduce the risk of downtime due to regional outages or disasters.
+* High Availability and Redundancy: Multi-region deployment ensures that your web application is resilient to failures in one region. By distributing your servers across different            geographic locations, you reduce the risk of downtime due to regional outages or disasters.
