@@ -29,3 +29,5 @@
   Proper management of EBS volumes involves monitoring performance metrics, optimizing storage configurations (e.g., choosing appropriate volume types like General Purpose SSD, 
   Provisioned IOPS SSD, or Magnetic), and implementing backups and snapshots for data protection.
 
+### Thank You
+### Kunal Pere
